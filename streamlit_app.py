@@ -3,7 +3,7 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
-from helperfunctions.crewai import crew
+from crewai import crew
 from utility import check_password
 
 import os
