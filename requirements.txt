@@ -1,7 +1,7 @@
 streamlit
 lolviz
 crewai
-crewai_tools
+crewai-tools
 open-interpreter
 pysqlite3-binary
 aiohappyeyeballs==2.4.3
