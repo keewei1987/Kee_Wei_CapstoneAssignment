@@ -34,10 +34,10 @@ jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 langchain
 langchain-community
-langchain-core==0.3.10
-langchain-experimental==0.3.2
+langchain-core
+langchain-experimental
 langchain-openai
-langchain-text-splitters==0.3.0
+langchain-text-splitters
 langsmith==0.1.135
 markdown-it-py==3.0.0
 MarkupSafe==3.0.1
