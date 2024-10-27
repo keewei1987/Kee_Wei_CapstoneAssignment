@@ -2,7 +2,7 @@ streamlit
 hmac
 lolviz
 crewai
-open-interpreteri
+open-interpreter
 pysqlite3-binary
 aiohappyeyeballs==2.4.3
 aiohttp==3.10.10
