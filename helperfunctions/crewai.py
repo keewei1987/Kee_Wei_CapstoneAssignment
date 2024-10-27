@@ -31,7 +31,7 @@ from crewai import Agent, Task, Crew
 from crewai_tools import WebsiteSearchTool
 # Create a new instance of the WebsiteSearchTool
 # Set the base URL of a website, e.g., "https://example.com/", so that the tool can search for sub-pages on that website
-tool_websearch = WebsiteSearchTool("https://www.mom.gov.sg/")
+tool_websearch = WebsiteSearchTool(website="https://www.mom.gov.sg/")
 
 # Creating Agents
 # region <--------- Creating Agent --------->
