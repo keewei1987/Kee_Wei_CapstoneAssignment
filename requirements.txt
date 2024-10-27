@@ -36,7 +36,7 @@ langchain
 langchain-community
 langchain-core==0.3.10
 langchain-experimental==0.3.2
-langchain-openai==0.2.2
+langchain-openai
 langchain-text-splitters==0.3.0
 langsmith==0.1.135
 markdown-it-py==3.0.0
@@ -47,7 +47,7 @@ multidict==6.1.0
 mypy-extensions==1.0.0
 narwhals==1.9.3
 numpy==1.26.4
-openai==1.51.2
+openai
 orjson==3.10.7
 packaging==24.1
 pandas==2.2.3
