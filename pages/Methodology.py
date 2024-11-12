@@ -19,6 +19,7 @@ st.header("Successful Implementation")
 st.markdown('''
 - OPENAI Key made Secret  
 - Password protected app  
+- Incorporated error handling (try and except)
 - Streamlit prompt powered by Crewai  
 - Preset prompt at prompt widget for suggested prompt
 - Streamlit powered OT calculator  
