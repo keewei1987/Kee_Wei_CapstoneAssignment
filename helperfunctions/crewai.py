@@ -28,6 +28,9 @@ tool_coding = Tool(
 #from helperfunctions.crewai 
 from crewai import Agent, Task, Crew
 
+from crewai.process import Process
+from langchain_openai import ChatOpenAI
+
 from crewai_tools import WebsiteSearchTool
 # Create a new instance of the WebsiteSearchTool
 # Set the base URL of a website, e.g., "https://example.com/", so that the tool can search for sub-pages on that website
@@ -208,8 +211,10 @@ task_write = Task(
 # Creating the Crew
 # region <--------- Creating Crew --------->
 crew = Crew(
-    agents=[agent_planner, agent_writer,agent_researcher,agent_customerservice,coding_agent,agent_compiler],
+    agents=[agent_planner,agent_writer,agent_researcher,agent_customerservice,coding_agent,agent_compiler],
     tasks=[task_plan, task_research, task_summary, task_write],
     verbose=True,
-    planning=True
+    planning=True,
+    process=Process.hierarchical,
+    manager_llm=ChatOpenAI(model="gpt-4o-mini")
 )
